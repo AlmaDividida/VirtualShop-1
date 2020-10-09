@@ -10,6 +10,9 @@ html {
 
 body{
     background: whitesmoke;
+    background-image: url(https://cdn.wallpapersafari.com/76/55/clX7HC.jpg);
+    background-position: center center;
+    background-attachment: fixed;
     font-size: 1.6rem;
     line-height: 2;
     color: #4B4453;
@@ -100,13 +103,14 @@ a {
 
 .btn-secundary:hover {
     border: 2px solid #845EC2;
-    background: #b39cd062;
+    background: #d65db26c;
+    color: white;
     transition: 1s;
 }
 
 /* SITE HEADER */
 .site-header{
-    height: 70vh;
+    height: 75vh;
     background-image: url(../img/headerBg.png); 
     background-repeat: no-repeat;   
     background-position: center center;
@@ -116,6 +120,7 @@ a {
 
 .site-header h2{
     font-size: 6rem;
+    line-height: 1.2;
     color: white;
 }
 
@@ -189,6 +194,7 @@ a {
     border-radius: 3rem;
     background-color: white;
     padding: 2rem 4rem;
+    margin-bottom: 4rem;
 }
 .product header, .product footer{
     display: flex;
@@ -204,4 +210,34 @@ a {
 }
 .product h4 {
     margin: 0;
+}
+
+/*  GIFT SECTION   */
+
+.giftSection {
+    height:100vh;
+    background-image: url(../img/bannerBg.png); 
+    background-repeat: no-repeat;   
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.gift-text {
+    max-width: 75rem;
+}
+
+/*  FOOTER   */
+
+.site-footer {
+    height:60vh;
+    background-image: url(../img/footerBg.png); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: flex-end;
 }
